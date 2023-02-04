@@ -1,0 +1,20 @@
+{
+  "name": "masproject",
+  "version": "1.0.0",
+  "description": "MAS Medical Staffing project automating Job Search and Login",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    
+    "masSearchTest": "npx cypress run --headed --browser chrome --spec  cypress/e2e/masSearchJobs.cy.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "cypress": "^12.5.1"
+  },
+  "devDependencies": {
+    "cypress-xpath": "^2.0.1"
+  }
+}
