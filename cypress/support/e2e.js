@@ -15,7 +15,7 @@
 
 // Import commands.js using ES2015 syntax:
 import './commands'
-//im very comfortable with selenium relative xpath so i imported xpath from cypress.io library 
+//I'm very comfortable with selenium relative xpath so I imported xpath from cypress.io library 
 require('cypress-xpath');
 
 
